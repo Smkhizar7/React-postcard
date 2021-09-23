@@ -1,0 +1,64 @@
+div#main-div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  width: 700px;
+  margin: 40px auto;
+  height: 60%;
+  box-shadow: 2px 4px 8px 2px;
+}
+img#hi {
+  width: 20px;
+}
+img#avatar-pic {
+  width: 200px;
+  height: 300px;
+}
+
+div#avatar-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: darkred;
+  color: #fff;
+}
+
+div#bio-div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #fff;
+  color: black;
+}
+
+p#bio-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: 500;
+}
+
+p#bio-text {
+  font-size: larger;
+  font-weight: 500;
+}
+
+div#root {/* display: flex; *//* flex-wrap: nowrap; *//* align-content: center; *//* justify-content: center; */}
+
+body {
+  background-color: cadetblue;
+}
